@@ -6,7 +6,7 @@ electron 快速入门 ![](https://img.shields.io/github/license/mashape/apistatu
 
 <br>
 
-## 前言
+## 前言
 基于 [electron-quick-start](https://github.com/electron/electron-quick-start) 翻译、修改并添加 [electron-builder](https://www.electron.build/) 打包工具
 
 <br>
@@ -29,7 +29,7 @@ $ npm run dev
 $ npm run build
 ```
 构建生成的应用程序位于项目的 dist 目录中。
-构建过程中需要下载各平台的 electron 构建包。如下载速度较慢，可前往[ electron github 仓库 ](https://github.com/electron/electron/releases)下载最新的正式版构建包。下载完之后放到`~/Library/Caches/electron`目录下再执行`npm run build`
+构建过程中需要下载各平台的 electron 构建包。如下载速度较慢，可前往[ electron github 仓库 ](https://github.com/electron/electron/releases)下载最新正式版的构建包。下载完之后放到`~/Library/Caches/electron`目录下再执行`npm run build`。
 
 <br>
 
