@@ -5,7 +5,10 @@
   "main": "main.js",
   "scripts": {
     "dev": "electron .",
-    "build": "electron-builder -mwl"
+    "pack:mac": "electron-builder -m",
+    "pack:win": "electron-builder -w",
+    "pack:linux": "electron-builder -l",
+    "pack": "electron-builder -mwl"
   },
   "keywords": [],
   "author": "halo <haloislet@gmail.com> (https://github.com/haloislet)",

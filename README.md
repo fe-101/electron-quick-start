@@ -24,12 +24,14 @@ $ npm i
 $ npm run dev 
 ```
 
-构建款平台应用程序
+构建跨平台应用程序
 ```
-$ npm run build
+$ npm run pack:win 
+$ npm run pack:mac
+$ npm run pack:linux 
+$ npm run pack 
 ```
 构建生成的应用程序位于项目的 dist 目录中。
-构建过程中需要下载各平台的 electron 构建包。如下载速度较慢，可前往[ electron github 仓库 ](https://github.com/electron/electron/releases)下载最新正式版的构建包。下载完之后放到`~/Library/Caches/electron`目录下再执行`npm run build`。
 
 <br>
 
