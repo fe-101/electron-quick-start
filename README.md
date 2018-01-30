@@ -35,6 +35,13 @@ $ npm run pack
 
 <br>
 
+## 说明
+- windows 下制作不了 mac 安装包。
+- windows 下制作 linux 安装包使用的是远程制作，需要使用到 node 的 http2 模块，要求 node>= v8.4.0。
+- 因网络问题无法下载相关包，可在 [releases](https://github.com/haloislet/electron-quick-start/releases) 中下载
+
+<br>
+
 ## 许可证
 
 The MIT License (MIT)
