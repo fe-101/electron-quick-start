@@ -1,4 +1,4 @@
-electron 快速入门 ![](https://img.shields.io/github/license/mashape/apistatus.svg) 
+electron 快速入门 ![](https://img.shields.io/npm/l/whistle.svg?style=flat-square) 
 ===
 
 > 使用 JavaScript, HTML 和 CSS 构建跨平台的桌面应用
